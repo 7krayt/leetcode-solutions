@@ -10,3 +10,5 @@ class Solution:
                 if dp[k] < n:
                     dp[k + 1] = min(dp[k + 1], n)
         return max(dp.keys())
+
+#https://leetcode.com/problems/longest-increasing-subsequence/description/
